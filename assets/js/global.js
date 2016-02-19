@@ -27,6 +27,8 @@ $(document).ready(function(){
   // Whenever the window resizes, we should fix the sidebar
   $(window).on('resize', fixSidebar);
 
-  // Delete this comment: This is where you should handle basic requirement #2 :)
+  $('.hamburger').on('click',function(){
+    $('.sidebar').slideToggle();
+  });
 
 });
