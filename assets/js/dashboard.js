@@ -149,11 +149,11 @@ $(document).ready(function(){
       var quarters = [0,0,0,0];
 
       for(var i=0; i < data.length; i++){
-        if (data[i].order.date <= Date.parse("3/31/2015")){
+        if (data[i].order.date <= "3/31/2015"){
           quarters[0]++; 
-        } else if (data[i].order.date <= ("6/30/2015")){
+        } else if (data[i].order.date <= "6/30/2015"){
           quarters[1]++;
-        } else if (data[i].order.date <= ("9/30/2015")){
+        } else if (data[i].order.date <= "9/30/2015"){
           quarters[2]++;
         } else {
           quarters[3]++;
